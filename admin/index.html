@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Szerkesztés · DrPlusz</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="../img/logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .admin-doboz { max-width: 40rem; }
+    .admin-doboz label { display: block; font-family: var(--sans); font-size: 0.95rem; margin: 0 0 0.4rem; }
+    .admin-doboz textarea,
+    .admin-doboz input[type="text"] {
+      width: 100%;
+      font: inherit;
+      color: var(--ink);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 0.8rem 0.9rem;
+    }
+    .admin-doboz textarea { min-height: 9rem; resize: vertical; }
+    .admin-gomb {
+      font-family: var(--sans);
+      background: var(--teal-deep);
+      color: #fff;
+      border: 0;
+      border-radius: 999px;
+      padding: 0.75rem 1.25rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .admin-gomb:disabled { opacity: 0.55; cursor: default; }
+    .admin-sor { display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; margin-top: 0.9rem; }
+    #google-gomb { min-height: 44px; }
+    .admin-hiba { color: #8a2e2e; }
+    .rejtett { display: none; }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#tartalom">Ugrás a tartalomra</a>
+  <div class="disclaimer">
+    <p><strong>Ez nem orvosi tanács.</strong> A DrPlusz magazin kutatásokat foglal össze közérthetően. Nem diagnózis, nem kezelési javaslat, és nem helyettesíti az orvost vagy a gyógyszerészt.</p>
+  </div>
+  <header class="wrap">
+    <div class="mast">
+      <a class="brand" href="../index.html">
+        <img src="../img/logo.jpg" alt="DrPlusz logó: teal pluszjel és arany levél">
+        <span>
+          <span class="brand-name">DrPlusz</span>
+          <small>Termékmagazin</small>
+        </span>
+      </a>
+      <nav aria-label="Főmenü">
+        <a href="../index.html">Főoldal</a><a href="../cikkek/index.html">Cikkek</a><a href="../tesztek/d-vitamin-formak.html">Összehasonlítás</a><a href="../impresszum.html">Impresszum</a><a href="../adatkezeles.html">Adatkezelés</a>
+      </nav>
+    </div>
+  </header>
+  <main id="tartalom">
+    <article class="wrap section prose admin-doboz">
+      <p class="kicker">Szerkesztés</p>
+      <h1>Új írás</h1>
+      <p>Csak a saját Google-fiókoddal léphetsz be. A kérdés nem a böngészőből hív fizetős szolgáltatást.</p>
+
+      <section id="belepes">
+        <h2>Belépés</h2>
+        <div id="kliens-hiany">
+          <p>A Google-gombhoz egy webes kliensazonosító kell. A neve: <strong>DrPlusz admin</strong>. Titkot ne másolj ide.</p>
+          <p><a href="https://console.cloud.google.com/auth/clients">Google Cloud: kliensek</a>. Ha még nincs projekt, a neve legyen <strong>drplusz</strong>, számlázás nélkül. Az engedélyezett JavaScript-eredet: <code>https://andor00001.github.io</code></p>
+          <label for="kliens">Kliensazonosító</label>
+          <input id="kliens" type="text" autocomplete="off" spellcheck="false" placeholder="1234567890-abc.apps.googleusercontent.com">
+          <div class="admin-sor">
+            <button class="admin-gomb" id="kliens-ment" type="button">Belépés Google-fiókkal</button>
+          </div>
+        </div>
+        <div id="google-gomb" class="rejtett"></div>
+        <p id="belepes-uzenet" class="meta" role="status"></p>
+      </section>
+
+      <section id="kerdes-blokk" class="rejtett">
+        <p class="meta" id="fiok"></p>
+        <form id="urlap">
+          <label for="kerdes">Miről írjak?</label>
+          <textarea id="kerdes" name="kerdes" required maxlength="2000"></textarea>
+          <p class="note">A kérdés ide érkezik, a cikk felkerül.</p>
+          <div class="admin-sor">
+            <button class="admin-gomb" id="kuldes" type="submit">Cikk készül</button>
+          </div>
+          <p id="vissza" role="status"></p>
+          <p id="kovetkezo" class="meta"></p>
+        </form>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <div class="wrap">
+      <strong style="color:var(--ink);font-family:var(--serif);font-size:1.25rem">DrPlusz</strong>
+      <p>Független egészségügyi termékmagazin. Nem egészségügyi szolgáltató és nem magánrendelő. Nincs kapcsolatban a székesfehérvári Doktor Plusz Magánorvosi Központtal (doktorplusz.com).</p>
+      <nav aria-label="Lábléc">
+        <a href="../index.html">Főoldal</a><a href="../cikkek/index.html">Cikkek</a><a href="../tesztek/d-vitamin-formak.html">Összehasonlítás</a><a href="../impresszum.html">Impresszum</a><a href="../adatkezeles.html">Adatkezelés</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="oauth.js"></script>
+  <script>
+    var ENGEDETT = "posztobanyiandor@gmail.com";
+    var KLIENS_KULCS = "drplusz-oauth-client-id";
+    var KLIENS_MINTA = /^\d+-[a-z0-9-]+\.apps\.googleusercontent\.com$/i;
+
+    var belepesUzenet = document.getElementById("belepes-uzenet");
+    var kliensHiany = document.getElementById("kliens-hiany");
+    var googleGomb = document.getElementById("google-gomb");
+    var kerdesBlokk = document.getElementById("kerdes-blokk");
+
+    function kliensId() {
+      var beirt = (window.DRPLUSZ_OAUTH_CLIENT_ID || "").trim();
+      if (KLIENS_MINTA.test(beirt)) return beirt;
+      try {
+        var mentett = (localStorage.getItem(KLIENS_KULCS) || "").trim();
+        if (KLIENS_MINTA.test(mentett)) return mentett;
+      } catch (e) {}
+      return "";
+    }
+
+    function b64url(s) {
+      s = s.replace(/-/g, "+").replace(/_/g, "/");
+      while (s.length % 4) s += "=";
+      var bin = atob(s);
+      var buf = new Uint8Array(bin.length);
+      for (var i = 0; i < bin.length; i++) buf[i] = bin.charCodeAt(i);
+      return buf;
+    }
+
+    async function ellenoriz(idToken, clientId) {
+      var reszek = idToken.split(".");
+      if (reszek.length !== 3) throw new Error("token");
+      var header = JSON.parse(new TextDecoder().decode(b64url(reszek[0])));
+      var payload = JSON.parse(new TextDecoder().decode(b64url(reszek[1])));
+      if (header.alg !== "RS256") throw new Error("alg");
+      var audOk = payload.aud === clientId || (Array.isArray(payload.aud) && payload.aud.indexOf(clientId) !== -1);
+      if (!audOk) throw new Error("aud");
+      if (payload.iss !== "https://accounts.google.com" && payload.iss !== "accounts.google.com") throw new Error("iss");
+      if (!payload.exp || payload.exp * 1000 < Date.now()) throw new Error("exp");
+      var certs = await (await fetch("https://www.googleapis.com/oauth2/v3/certs")).json();
+      var jwk = (certs.keys || []).filter(function (k) { return k.kid === header.kid; })[0];
+      if (!jwk) throw new Error("kid");
+      var key = await crypto.subtle.importKey("jwk", jwk, { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" }, false, ["verify"]);
+      var alairasOk = await crypto.subtle.verify(
+        "RSASSA-PKCS1-v1_5",
+        key,
+        b64url(reszek[2]),
+        new TextEncoder().encode(reszek[0] + "." + reszek[1])
+      );
+      if (!alairasOk) throw new Error("sig");
+      return payload;
+    }
+
+    function mutatFormot(email) {
+      document.getElementById("belepes").classList.add("rejtett");
+      kerdesBlokk.classList.remove("rejtett");
+      document.getElementById("fiok").textContent = email;
+    }
+
+    async function onCredential(response) {
+      belepesUzenet.textContent = "";
+      belepesUzenet.className = "meta";
+      try {
+        var payload = await ellenoriz(response.credential, kliensId());
+        var email = String(payload.email || "").toLowerCase();
+        var igazolt = payload.email_verified === true || payload.email_verified === "true";
+        if (!igazolt || email !== ENGEDETT) {
+          belepesUzenet.className = "admin-hiba";
+          belepesUzenet.textContent = "Ez a Google-fiók nem léphet be.";
+          return;
+        }
+        mutatFormot(email);
+      } catch (e) {
+        belepesUzenet.className = "admin-hiba";
+        belepesUzenet.textContent = "A Google-belépést nem sikerült ellenőrizni.";
+      }
+    }
+
+    function inditGoogle(clientId) {
+      kliensHiany.classList.add("rejtett");
+      googleGomb.classList.remove("rejtett");
+      var s = document.createElement("script");
+      s.src = "https://accounts.google.com/gsi/client";
+      s.async = true;
+      s.onload = function () {
+        google.accounts.id.initialize({
+          client_id: clientId,
+          callback: onCredential,
+          auto_select: false,
+          cancel_on_tap_outside: true,
+          ux_mode: "popup"
+        });
+        google.accounts.id.renderButton(googleGomb, {
+          type: "standard",
+          theme: "outline",
+          size: "large",
+          text: "signin_with",
+          shape: "rectangular",
+          locale: "hu",
+          width: 280
+        });
+      };
+      s.onerror = function () {
+        belepesUzenet.className = "admin-hiba";
+        belepesUzenet.textContent = "A Google belépés most nem töltődött be.";
+      };
+      document.body.appendChild(s);
+    }
+
+    document.getElementById("kliens-ment").addEventListener("click", function () {
+      var ertek = document.getElementById("kliens").value.trim();
+      if (!KLIENS_MINTA.test(ertek)) {
+        belepesUzenet.className = "admin-hiba";
+        belepesUzenet.textContent = "Ez nem Google kliensazonosító. Titkot ne illessz be.";
+        return;
+      }
+      try { localStorage.setItem(KLIENS_KULCS, ertek); } catch (e) {}
+      belepesUzenet.textContent = "";
+      inditGoogle(ertek);
+    });
+
+    var meglevo = kliensId();
+    if (meglevo) inditGoogle(meglevo);
+
+    document.getElementById("urlap").addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var szoveg = document.getElementById("kerdes").value.trim();
+      if (!szoveg) return;
+      var csomag = { kerdes: szoveg, ido: new Date().toISOString() };
+      location.hash = "kerdes=" + encodeURIComponent(JSON.stringify(csomag));
+      document.getElementById("vissza").textContent = "Elküldve, a cikk készül";
+      document.getElementById("kovetkezo").textContent = "A kérdés a címsorban marad. A böngésző nem publikálja azonnal: a következő kör írja meg a cikket.";
+      document.getElementById("kuldes").disabled = true;
+    });
+  </script>
+</body>
+</html>
