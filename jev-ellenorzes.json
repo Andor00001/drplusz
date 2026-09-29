@@ -329,6 +329,326 @@
           "badge": "Nem bizonyított"
         }
       ]
+    },
+    {
+      "path": "cikkek/k-vitamin.html",
+      "title": "K-vitamin: véralvadás, csont, és a warfarin melletti egyenletes bevitel",
+      "claims": [
+        {
+          "text": "A K-vitamin a véralvadáshoz és az egészséges csonthoz kell. Warfarin mellett a napi bevitel legyen egyenletes.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminK-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A K-vitamin-készítmény és a csonttörés kapcsolata vegyes: van pozitív és van negatív vizsgálat is.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminK-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/jod.html",
+      "title": "Jód: pajzsmirigyhormon, és a várandósság",
+      "claims": [
+        {
+          "text": "A szervezetnek jód kell a pajzsmirigyhormonokhoz. Ezek kellenek az anyagcseréhez, valamint a magzat és a csecsemő csont- és agyfejlődéséhez.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Iodine-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Enyhe vagy mérsékelt jódhiányos területeken a pótlási vizsgálatok metaanalízisei nem adtak egyértelmű következtetést a várandós pótlás hasznáról.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36227457/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/kalium.html",
+      "title": "Kálium: izom, ideg, vérnyomás",
+      "claims": [
+        {
+          "text": "A kálium kell a vese és a szív működéséhez, az izom-összehúzódáshoz és az idegi jelátvitelhez.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Potassium-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A NIH szerint a több étrendi kálium és a kevesebb nátrium segíthet a vérnyomáson és a stroke kockázatán. Ez étrendről szól, nem egy káliumtabletta rendelvényéről.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Potassium-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/sohelyettesito.html",
+      "title": "Káliumsós sóhelyettesítő: vérnyomás egy összefoglalóban",
+      "claims": [
+        {
+          "text": "Egy metaanalízis szerint a káliumot tartalmazó sóhelyettesítő csökkentette a vérnyomást a közönséges sóhoz képest, és az összesített halálozási adatban is alacsonyabb kockázatot írt le.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36196475/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Ebből nem következik, hogy egy bolti káliumkapszula ugyanezt teszi. A vizsgált termék a só cseréje volt.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36196475/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/foszfor.html",
+      "title": "Foszfor: csont, energia, és a túl sok veszélye vesebetegségben",
+      "claims": [
+        {
+          "text": "A foszfor a csontban és a fogban van, és kell az energianyeréshez.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Phosphorus-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Súlyos vesebetegségben a felhalmozódó foszfor a csontot és a vesét is érintheti. Ez nem ok arra, hogy egészséges ember foszfort szedjen vagy tiltson.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Phosphorus-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/rez.html",
+      "title": "Réz: energia, kötőszövet, és a cinkkel való ütközés",
+      "claims": [
+        {
+          "text": "A réz kell az energianyeréshez, a kötőszövethez, az erekhez, az ideg- és immunrendszerhez és az agy fejlődéséhez.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Copper-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A szívbetegségre és az Alzheimer-kórra vonatkozó adatok vegyesek. A nagy dózisú cink rézhiányhoz vezethet.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Copper-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/mangan.html",
+      "title": "Mangán: energia és sejtvédelem, kevés lezárt betegség-állítással",
+      "claims": [
+        {
+          "text": "A mangán kell az energianyeréshez, a sejtvédelemhez, a csonthoz, a véralvadáshoz és az immunrendszerhez.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Manganese-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A csont egészségének fenntartásában és a cukorbetegségben a mangán szerepe a NIH szerint még nem tisztázott.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Manganese-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/molibden.html",
+      "title": "Molibdén: fehérje és DNS, szinte ismeretlen betegségszerep",
+      "claims": [
+        {
+          "text": "A molibdén kell a fehérjék és a genetikai anyag feldolgozásához.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Molybdenum-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Azt, hogy a molibdén egy betegséget befolyásol, a NIH szerint nem tudjuk.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Molybdenum-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/krom.html",
+      "title": "Króm: nem tisztázott szerep, és a vércukor vegyes adatai",
+      "claims": [
+        {
+          "text": "A króm segíthet a szénhidrát, a zsír és a fehérje felhasználásában, de a NIH szerint a szerepe nincs teljesen tisztázva, és egészséges embernél hiányt nem írtak le.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Chromium-Consumer/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "A vércukorra és a cukorbetegségre a vizsgálatok vegyesek. Az Amerikai Diabétesz Társaság nem ajánl krómkészítményt, mert nincs tiszta haszon.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Chromium-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/fluorid.html",
+      "title": "Fluorid: fogzománc és a fogszuvasodás",
+      "claims": [
+        {
+          "text": "A fluorid erősíti a fogzománcot, és segít megelőzni a fogszuvasodást. A fluoridos vizet ivóknál kevesebb a szuvasodás.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Fluoride-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A fluorid a csont erősítésében is szerepet kap a NIH leírásában. Ebből ez a cikk nem csinál csontritkulás-kezelést.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Fluoride-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/bor.html",
+      "title": "Bór: nem esszenciális ásvány, nyitott csontkérdéssel",
+      "claims": [
+        {
+          "text": "A bórt étrend-kiegészítőként árulják, miközben a NIH szerint nem esszenciális tápanyag, és ajánlott mennyiség sincs.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Boron-Consumer/",
+          "badge": "Hagyományos használat"
+        },
+        {
+          "text": "Néhány vizsgálat az alacsony bevitelt gyengébb figyelemhez és kisebb csonterőhöz köti. Az osteoarthritisre több kutatás kell.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Boron-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/karnitin.html",
+      "title": "Karnitin: a szervezet maga is készíti",
+      "claims": [
+        {
+          "text": "A karnitin segít az ételből energiát nyerni. Egészséges ember szervezete eleget készít, ezért nem esszenciális.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Carnitine-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A szív, a demencia, a sport és a testsúly vizsgálatai vegyesek. Hosszabb pótlás egyes adatok szerint növelheti a szívbetegség kockázatát.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Carnitine-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/probiotikum.html",
+      "title": "Probiotikum: élő mikrobák, törzs szerint, nem egy kalap alatt",
+      "claims": [
+        {
+          "text": "A probiotikum élő mikroba, amely elég mennyiségben hasznot adhat. A hatás törzshöz kötött, és nem minden fermentált étel probiotikum.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Probiotics-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Egyes törzsek rövidíthetik a gyermekkori heveny hasmenést vagy csökkenthetik az antibiotikumhoz társuló hasmenés kockázatát. Más vizsgálatok ezt nem mutatták.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Probiotics-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/probiotikum-antibiotikum.html",
+      "title": "Probiotikum antibiotikum mellett gyermeknél: egy Cochrane-áttekintés",
+      "claims": [
+        {
+          "text": "Gyermekeknél a probiotikum egy Cochrane-áttekintés szerint rövidítheti az antibiotikumhoz társuló hasmenést. A törzs és a dózis nem mindegy, és a szerzők további megerősítést kérnek.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/31039287/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Ebből nem következik, hogy bármely bolti probiotikum biztonságos nagyon legyengült vagy immunhiányos gyermeknél.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/31039287/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/ashwagandha.html",
+      "title": "Ashwagandha: hagyományos növény, kis vizsgálatok stresszre és alvásra",
+      "claims": [
+        {
+          "text": "Az ashwagandha hagyományos ájurvédikus és unani növény. A hagyomány önmagában nem klinikai bizonyíték.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Ashwagandha-Consumer/",
+          "badge": "Hagyományos használat"
+        },
+        {
+          "text": "Kis vizsgálatok szerint a kivonat csökkentheti a stresszt és kissé javíthatja az alvást. A NIH szerint a hatásokat nem vizsgálták alaposan.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Ashwagandha-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/multivitamin.html",
+      "title": "Multivitamin: pótolhat hiányt, a halálozást egy metaanalízis nem csökkentette",
+      "claims": [
+        {
+          "text": "A multivitamin növelheti a bevitt vitaminok és ásványi anyagok mennyiségét, ha az étel nem elég. Nem helyettesíti az ételt.",
+          "source_url": "https://ods.od.nih.gov/factsheets/MVMS-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Egy metaanalízis szerint a multivitamin-ásványi kezelés nem befolyásolta a halálozás kockázatát.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/23255568/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/kreatin.html",
+      "title": "Kreatin: rövid, intenzív szakaszok, nem a hosszútáv",
+      "claims": [
+        {
+          "text": "A NIH szerint a kreatin az ismételt, rövid, intenzív erőkifejtés teljesítményét javíthatja. Állóképességi sportban kevés a haszna.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Ellenállásos edzéssel együtt a kreatin kismértékű izomvastagság-növekedéssel járt egy képalkotó metaanalízisben. A hatás kicsi.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37432300/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/koffein.html",
+      "title": "Koffein: éberség és állóképesség, nem a sprint",
+      "claims": [
+        {
+          "text": "A NIH szerint a koffein segíthet az állóképességi és a szakaszos sportban. A rövid sprintben és a súlyemelésben nem.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Futóknál egy metaanalízis hosszabb kifáradási időt és jobb időfutamot talált. A hatás nem mindenkinél azonos, és a nőknél kevesebb az adat.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36615805/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/koffein-alvas.html",
+      "title": "Koffein és alvás: a lefekvés előtti órák",
+      "claims": [
+        {
+          "text": "A koffein rövidíti a teljes alvásidőt, rontja az alváshatékonyságot, és késlelteti az elalvást egy metaanalízis szerint.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36870101/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A lefekvés előtti órák becslése egy átlagos kávéra és egy előedzés-porra vonatkozik. Egyéni érzékenységet nem helyettesít.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36870101/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/feherje.html",
+      "title": "Fehérje: izomépítés ételből, a por csak kiegészítés",
+      "claims": [
+        {
+          "text": "A fehérje építi és javítja az izmot, és adja az esszenciális aminosavakat. A változatos növényi étrend is összeállítható úgy, hogy mind meglegyen.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A sportolói szükséglet magasabb lehet az átlagos étkezésnél, de a NIH szerint a javasolt fölött további haszon nincs, és a por nem kötelező, ha az étel elég.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
     }
   ]
 }
