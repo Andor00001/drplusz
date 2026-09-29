@@ -649,6 +649,826 @@
           "badge": "Korlátozott"
         }
       ]
+    },
+    {
+      "path": "cikkek/beta-alanin.html",
+      "title": "Béta-alanin: kis hatás szakaszos sportban, bizsergés mellékhatással",
+      "claims": [
+        {
+          "text": "Egyes vizsgálatok kis javulást találtak szakaszos, nagy intenzitású sportban. Nem minden vizsgálat, és az állóképesség nem tiszta.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "800 milligrammtól bizsergés lehet. Ez kellemetlen, a NIH szerint nem súlyos. A hosszú távú napi biztonság nem ismert.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/bcaa.html",
+      "title": "BCAA: leucin, izoleucin, valin, kevés plusz az elég fehérje mellett",
+      "claims": [
+        {
+          "text": "A NIH szerint kevés a bizonyíték, hogy a BCAA-készítmény javítja az állóképességet, vagy több izmot épít, mint az elég fehérje.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Nem bizonyított"
+        },
+        {
+          "text": "Erőedzés mellett lehet izomméret- és erőnövekedés, de ez nem bizonyítottan több, mint a megfelelő étkezési fehérje.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/hmb.html",
+      "title": "HMB: regeneráció sérítő edzés után, a teljesítmény nem tiszta",
+      "claims": [
+        {
+          "text": "A HMB gyorsíthatja a regenerációt izomsérülést okozó edzés után. A teljesítményjavulás nem tisztázott.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "A kalciumos HMB kalciumot is visz be. Ezt kalciumpótlás mellett észben kell tartani, adagot a magazin nem mond.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/arginin.html",
+      "title": "Arginin: nitrogén-monoxid ígéret, kevés sportadat",
+      "claims": [
+        {
+          "text": "Az arginin-készítmény a NIH szerint alig vagy egyáltalán nem javítja az erősítő vagy az aerob teljesítményt.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Nem bizonyított"
+        },
+        {
+          "text": "Napi 9 gramm fölött gyomorpanasz és enyhe vérnyomáscsökkenés lehet. Ez ártalom, nem cél.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/glutamin.html",
+      "title": "Glutamin: a szervezet is készíti, a sportpótlás alig ad",
+      "claims": [
+        {
+          "text": "A glutamin-készítmény a NIH szerint nem vagy csak kis mértékben javítja az erősítő edzés teljesítményét és regenerációját.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/ceklale.html",
+      "title": "Céklalé: nitrát és aerob teljesítmény, a por nem ugyanaz",
+      "claims": [
+        {
+          "text": "A céklalé sok vizsgálatban javította az aerob teljesítményt, inkább hobbisportolónál, mint élsportolónál. Nem minden vizsgálat találta ezt.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "A céklapor-kapszuláról nem ismert, hogy ugyanazt a hatást adja, mint a lé.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/szodium-bikarbonat.html",
+      "title": "Szódabikarbóna: kis segítség néhány perces terhelésnél, gyomor árán",
+      "claims": [
+        {
+          "text": "A szódabikarbóna kismértékben javíthatja a néhány perces, intenzív teljesítményt, főleg edzett sportolónál. Van, akinél nincs haszon, vagy ront.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Gyomorpanasz és sok nátrium az ára. Ez nem házi teáskanál-recept.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/kvercetin.html",
+      "title": "Kvercetin: a gyümölcs flavonoidja, a sportkapszula alig vizsgált",
+      "claims": [
+        {
+          "text": "A kvercetin-készítmény sportteljesítményre gyakorolt haszna, ha egyáltalán van, kicsi, és kevés a vizsgálat.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/riboz.html",
+      "title": "Ribóz: a szervezet maga is készíti, a sportkapszula alig használt",
+      "claims": [
+        {
+          "text": "A ribóz-készítmény a kevés vizsgálatban alig vagy egyáltalán nem javította a sportteljesítményt.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/ginseng-sport.html",
+      "title": "Ginzeng sportteljesítményre: kevés bizonyíték",
+      "claims": [
+        {
+          "text": "A ginzengkészítmények sportteljesítményre a NIH szerint kevés bizonyítékot adnak.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Nem bizonyított"
+        },
+        {
+          "text": "A vitalitás és a fáradtság elleni használat hagyományos ígéret. A hagyomány nem sportvizsgálat.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Hagyományos használat"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/betain.html",
+      "title": "Betain: cékla és spenót aminosav-származéka, kevés sportadat",
+      "claims": [
+        {
+          "text": "A betain-készítmény sportteljesítményre a NIH szerint kevés bizonyítékot ad, ha az étrend tápláló.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/meggyle.html",
+      "title": "Meggy: kevés adat a regenerációra",
+      "claims": [
+        {
+          "text": "A fanyar meggy termékei korlátozott adatok szerint segíthetnek az edzés utáni regenerációban. A bizonyíték kevés.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/etrend-kiegeszito.html",
+      "title": "Mi az étrend-kiegészítő, és mi nem gyógyszer",
+      "claims": [
+        {
+          "text": "Az étrend-kiegészítő az amerikai definíció szerint az étrendet egészíti ki, szájon át szedik, és nem a gyógyszerek szabályai szerint engedélyezik a hatását.",
+          "source_url": "https://ods.od.nih.gov/factsheets/DietarySupplements-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Abból, hogy egy termék étrend-kiegészítőként van címkézve, nem következik, hogy a hatásígérete igazolt.",
+          "source_url": "https://ods.od.nih.gov/factsheets/DietarySupplements-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/c-vitamin-es-vas.html",
+      "title": "C-vitamin és a növényi vas felszívódása",
+      "claims": [
+        {
+          "text": "A C-vitamin javítja a növényi, nem-hem vas felszívódását.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminC-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Húsos ételnél és rosszul oldódó vasvegyületeknél a hatás kisebb. A tea gátlását az aszkorbinsav részben visszafordíthatja.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/6940487/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/melatonin.html",
+      "title": "Melatonin krónikus álmatlanságra: felnőttnél nem látszott hatásosnak",
+      "claims": [
+        {
+          "text": "Felnőtt, társbetegség nélküli krónikus álmatlanságban a melatonin egy áttekintés szerint nem volt érdemben hatásos az elalvásra, az alvásidőre és a hatékonyságra.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36179487/",
+          "badge": "Nem bizonyított"
+        },
+        {
+          "text": "Gyermeknél és serdülőnél ugyanaz az áttekintés lehetséges hatást ír. Ez nem otthoni adagolás.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36179487/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/kollagen.html",
+      "title": "Kollagénpeptidek és a bőr rugalmassága",
+      "claims": [
+        {
+          "text": "Szájon át szedett kollagénpeptidek mellett nőtt a bőr rugalmassága placebóhoz képest egy vizsgálatban és egy metaanalízisben. A bizonyíték minősége korlátozott.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/40826844/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Ebből nem következik, hogy a kollagén az ízületet gyógyítja vagy a ráncot eltünteti. A nedvesség nem minden elemzésben lett szignifikáns.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/23949208/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/glukozamin.html",
+      "title": "Glükózamin térdízületi panaszra: a fájdalomadatok nem egyformák",
+      "claims": [
+        {
+          "text": "Egy áttekintés a glükózamint placebónál jobbnak találta a térdfájdalom csökkentésében. A funkció javulása nem volt elég.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37489348/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Egy szélesebb áttekintés a glükózamint és a kondroitint hatástalannak vagy klinikailag lényegtelennek írta, közép- és hosszú távon fontos hatás nélkül.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/29018060/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/kondroitin.html",
+      "title": "Kondroitin glükózaminnal: egy kombinációs áttekintés, és a külön szer határa",
+      "claims": [
+        {
+          "text": "A glükózamin-kondroitin kombináció egy metaanalízis szerint térdízületi arthrosisban bizonyos előnyt mutatott, de a vizsgálatok minősége egyenetlen.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/35024906/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Önmagában a kondroitin klinikailag fontos, tartós fájdalomcsökkenése nem tekinthető lezártnak.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/29018060/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/fokhagyma.html",
+      "title": "Fokhagyma: vérnyomás és enyhén magas koleszterin egy áttekintésben",
+      "claims": [
+        {
+          "text": "Egy metaanalízis szerint a fokhagyma-készítmény csökkentheti a vérnyomást magas vérnyomásban, és rendezheti az enyhén magas koleszterint.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/26764326/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Azt, hogy ettől kevesebb lenne a szívinfarktus vagy a halálozás, ugyanez az áttekintés nem állítja. Hosszú távú vizsgálat kell.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/26764326/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/zoldtea.html",
+      "title": "Zöld tea katechin és edzés: kicsi plusz a fogyásban",
+      "claims": [
+        {
+          "text": "Edzés mellett a zöld tea katechin kis többletet adhat a testsúly és a zsír csökkentésében. A vérzsírra többlethatás nem látszott.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39350601/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Ebből nem következik, hogy a zöld tea kapszula edzés nélkül fogyókúra.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39350601/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/orbancfu.html",
+      "title": "Orbáncfű major depresszióban: egy Cochrane-áttekintés, nem házi kezelés",
+      "claims": [
+        {
+          "text": "A vizsgált orbáncfű-kivonatok egy Cochrane-áttekintés szerint placebónál jobbak és a szokásos antidepresszánsokhoz hasonlók voltak major depresszióban, kevesebb mellékhatással. Az eredmények országfüggők.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/18843608/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Ebből nem következik, hogy bármely bolti orbáncfű tea ugyanez a kivonat, vagy hogy gyógyszer helyett szedhető.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/18843608/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/valeriana.html",
+      "title": "Valeriana alvásra: biztonságosnak tűnik, a kivonat minősége számít",
+      "claims": [
+        {
+          "text": "A valerianát hagyományosan alvásra használják. A hagyomány önmagában nem bizonyíték.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/33086877/",
+          "badge": "Hagyományos használat"
+        },
+        {
+          "text": "Egy áttekintés szerint segíthet az alvásban, súlyos mellékhatás nélkül, de a kivonatok minősége miatt az eredmény ingadozik.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/33086877/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/tozegafonya.html",
+      "title": "Tőzegáfonya és húgyúti fertőzés: kinek szól a Cochrane, és kinek nem",
+      "claims": [
+        {
+          "text": "Tőzegáfonya-termékek csökkenthetik a tünetes, tenyésztett húgyúti fertőzés kockázatát visszatérő fertőzéses nőknél, gyermekeknél és beavatkozás után fogékonyaknál.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37068952/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Időseknél, hólyagürítési zavarban és várandósságban a Cochrane nem támogatja a használatot.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37068952/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/borsmenta.html",
+      "title": "Borsmentaolaj irritábilis bélre: rövid távú adatok",
+      "claims": [
+        {
+          "text": "A borsmentaolaj rövid távon jobb volt a placebónál az IBS tüneteire és a hasi fájdalomra. Gyomorégés előfordul.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/24100754/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "A hosszú távú hatás és a gyógyszerekhez képesti hely nem ismert ebből az áttekintésből.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/24100754/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/zab-beta-glukan.html",
+      "title": "Zab béta-glükán: az LDL a vizsgálatokban csökkent, a HDL nem",
+      "claims": [
+        {
+          "text": "Napi legalább 3 gramm zab béta-glükán a metaanalízis szerint csökkentette az LDL-t és az összkoleszterint, a HDL és a triglicerid változatlan maradt.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/25411276/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Ebből nem következik, hogy a zabpehely megelőzi a szívinfarktust. A vizsgálat a vérzsírt mérte.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/25411276/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/psyllium.html",
+      "title": "Psyllium: LDL, nem-HDL és apoB egy metaanalízisben",
+      "claims": [
+        {
+          "text": "A psyllium a metaanalízis szerint csökkentette az LDL-t, a nem-HDL koleszterint és az apoB-t.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/30239559/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A szívinfarktusok számát ez az összefoglaló nem mérte. A lipidmarker javulása nem ugyanaz, mint a betegségmegelőzés.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/30239559/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/koenzim-q10.html",
+      "title": "Koenzim Q10 szívelégtelenségben: egy metaanalízis, nem otthoni kezelés",
+      "claims": [
+        {
+          "text": "Szívelégtelenségben a Q10 egy metaanalízis szerint csökkentette az összhalálozást és a kórházi kezelést, és javította a járástesztet. Ez nem azt jelenti, hogy a bolti kapszula kezelés.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39462324/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/q10-sztatin.html",
+      "title": "Q10 és sztatin melletti izomfájdalom",
+      "claims": [
+        {
+          "text": "A bevont randomizált vizsgálatok javulást írtak a sztatin melletti izompanaszra Q10-zel. Az áttekintés öt közleményre épül.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39350827/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/dha-terhesseg.html",
+      "title": "DHA a várandósság alatt: születési súly, a koraszülés nem lett szignifikáns",
+      "claims": [
+        {
+          "text": "Napi 450–800 mg DHA mellett nagyobb volt a születési súly, és kevesebb volt a kis súllyal születés. A terhesség hossza nem változott, a koraszülés csökkenése nem volt statisztikailag egyértelmű.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39067112/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/novenyi-szterol.html",
+      "title": "Növényi szterin és sztanol: az LDL egy étel-áttekintésben",
+      "claims": [
+        {
+          "text": "A hozzáadott növényi szterint vagy sztanolt tartalmazó ételek magas bizonyíték mellett legalább mérsékelten csökkentették az LDL-t.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/33762150/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Az áttekintés az LDL-t mérte, nem a szívinfarktusok számát.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/33762150/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/etrendirost.html",
+      "title": "Élelmi rost és halálozás: összefüggés, nem kapszula-bizonyíték",
+      "claims": [
+        {
+          "text": "A több élelmi rost együtt járt alacsonyabb összhalálozással és szív- valamint rákhalálozással. Az adat követéses, nem rostkapszula-kísérlet.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38011755/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/fureszpalma.html",
+      "title": "Fűrészpálma és prosztatapanasz: a placebo nem maradt alul",
+      "claims": [
+        {
+          "text": "A fűrészpálma-kivonat egy Cochrane-áttekintés szerint nem javította a prosztatához kötött húgyúti tüneteket és a vizeletsugarat a placebóhoz képest.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/22551330/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/mariastovis.html",
+      "title": "Máriatövis zsírmájban: egy metaanalízis, megerősítésre vár",
+      "claims": [
+        {
+          "text": "Zsírmájban a szilimarin egy metaanalízisben javította a májenzimeket és a zsírosodás szövettanát. A szerzők megerősítést kérnek.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38579127/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/fekete-kohosz.html",
+      "title": "Fekete kígyógyökér: egy izopropanolos kivonat a menopauza tüneteire",
+      "claims": [
+        {
+          "text": "Egy meghatározott fekete kígyógyökér-kivonat, az iCR, a változókori tünetekre vonatkozó frissítés szerint használható opciónak tűnt, májkárosodás jele nélkül.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/33021111/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Ebből nem következik, hogy minden fekete kígyógyökér kapszula ugyanez a kivonat.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/33021111/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/teanin.html",
+      "title": "L-teanin: stressz és szorongás kis vizsgálatokban",
+      "claims": [
+        {
+          "text": "Napi 200–400 mg L-teanin egy áttekintés szerint segíthet a stressz és a szorongás csökkentésében stressznek kitett embereknél. A bizonyíték rövid távú.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/31758301/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/glukomannan.html",
+      "title": "Glükomannán és testsúly: kis hatás, alacsony bizonyosság",
+      "claims": [
+        {
+          "text": "A glükomannán egy hálózati metaanalízisben kis testsúlycsökkenéssel járt, alacsony bizonyossággal.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37778464/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/spirulina.html",
+      "title": "Spirulina és testsúly: kis csökkenés, magas bizonyosság az összesítésben",
+      "claims": [
+        {
+          "text": "A spirulina egy hálózati metaanalízisben átlagosan 1,77 kg-os testsúlycsökkenéssel járt, magas bizonyossággal. A hatás kicsi.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37778464/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/kitozan.html",
+      "title": "Kitozán és testsúly: mérsékelt bizonyosság, kis különbség",
+      "claims": [
+        {
+          "text": "A kitozán mérsékelt bizonyosság mellett átlagosan 1,70 kg-mal alacsonyabb testsúllyal járt az összesítésben.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37778464/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/kurkumin-testsuly.html",
+      "title": "Kurkumin és testsúly: kis hatás, nem gyulladáscsökkentő ígéret",
+      "claims": [
+        {
+          "text": "A kurkumin mérsékelt bizonyosság mellett átlagosan 0,82 kg-os testsúlycsökkenéssel járt.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37778464/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Ebből a súlyadatból nem következik, hogy a kurkumin ízületet vagy daganatot kezel. Arra ez a közlemény nem ad választ.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37778464/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/feketekomeny.html",
+      "title": "Feketekömény és testsúly: kis csökkenés az összesítésben",
+      "claims": [
+        {
+          "text": "A feketekömény mérsékelt bizonyosság mellett átlagosan 2,09 kg-os testsúlycsökkenéssel járt egy hálózati metaanalízisben.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37778464/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/same.html",
+      "title": "SAMe és depresszió: ígéretes, de szűk bizonyíték",
+      "claims": [
+        {
+          "text": "A SAMe depresszióban ígéretes, de korlátozott bizonyítékú egy áttekintés szerint, önmagában és kiegészítésként is.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/28682528/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/taurin.html",
+      "title": "Taurin és gondolkodás: az összesítés nem igazolta",
+      "claims": [
+        {
+          "text": "A taurinpótlás egy metaanalízis szerint nem igazolt elég bizonyítékot a kognitív működés javítására.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/40320621/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/glicin.html",
+      "title": "Glicin és alvás: három kis vizsgálat, közvetítés nincs igazolva",
+      "claims": [
+        {
+          "text": "Három glicines alvásvizsgálat legalább egy alváskimenetelen hasznot írt. A bizonyíték kicsi, és a kollagénnel való kapcsolat nincs közvetlenül igazolva.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/42687500/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/algaolaj.html",
+      "title": "Algaolaj és az anyatej DHA-ja",
+      "claims": [
+        {
+          "text": "Szoptató anyáknál az algaolajból származó DHA-pótlás emelte az anyatej DHA-szintjét egy randomizált vizsgálatban.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36014916/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/a-vitamin-gyermek.html",
+      "title": "A-vitamin-pótlás kisgyermeknél: egy Cochrane-következtetés, nem házi adag",
+      "claims": [
+        {
+          "text": "Hat hónapos és öt éves kor között az A-vitamin-pótlás egy Cochrane-áttekintés szerint csökkentette a megbetegedést és a halálozást. Az első két napban a hányás gyakoribb volt.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/35294044/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Ebből nem következik házi adag jól táplált gyermeknek. A program közegészségügyi, nem bolti cseppentés.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/35294044/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/cink-hasmenes.html",
+      "title": "Cink gyermekkori hasmenésben: az ajánlás marad, az adag kérdése nyitott",
+      "claims": [
+        {
+          "text": "10 éves kor alatti hasmenésben egy metaanalízis szerint a cinkpótlás ajánlása indokolt marad, az adag kérdésével együtt.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39641338/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/berberin.html",
+      "title": "Berberin és vércukor: metaanalízis, nem cukorgyógyszer",
+      "claims": [
+        {
+          "text": "2-es típusú cukorbetegségben a berberin egy metaanalízis szerint csökkentette a vércukrot, a kiinduló értékektől függően.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36467075/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "Ebből nem következik, hogy a berberin helyettesíti a cukorgyógyszert vagy az inzulint.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36467075/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/bacopa.html",
+      "title": "Bacopa: egy áttekintés a memóriára, következetlenségekkel",
+      "claims": [
+        {
+          "text": "Egy áttekintés szerint a bacopa javítja a nyelvet, a tanulást és a memóriát. A szerzők a nootropikumok adatait következetlennek is írják.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/34978226/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/alfa-liponsav.html",
+      "title": "Alfa-liponsav diabéteszes idegbántalomra: valószínűleg alig hat",
+      "claims": [
+        {
+          "text": "Diabéteszes idegbántalomban az alfa-liponsav hat hónapnál valószínűleg alig vagy semennyire csökkentette a tüneteket egy Cochrane-áttekintés szerint.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38205823/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/gyomber.html",
+      "title": "Gyömbér és kemoterápia okozta hányás: egy szűk jel, nem általános hányingercsillapító",
+      "claims": [
+        {
+          "text": "A gyömbért hagyományosan hányingerre használják. A hagyomány nem a kemoterápiás vizsgálat.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36501010/",
+          "badge": "Hagyományos használat"
+        },
+        {
+          "text": "Napi legfeljebb 1 gramm, négy napnál hosszabb szedés mellett kevesebb volt a heveny hányás. A hányingerre és a késői hányásra az összesítés nem igazolt hatást.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36501010/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/b12-vegan-anya.html",
+      "title": "B12 vegán várandósságban: egy eset és az irodalmi figyelmeztetés",
+      "claims": [
+        {
+          "text": "Egy eset és irodalmi áttekintés szerint a vegán várandós és szoptató B12-hiánya súlyosan érintheti a csecsemő idegrendszerét, és a pótlás ezt megelőzheti.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/34046142/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/lutein.html",
+      "title": "Lutein és zeaxantin az AREDS2-ben: a plusz nem vitt tovább",
+      "claims": [
+        {
+          "text": "A lutein és a zeaxantin hozzáadása az elsődleges elemzésben nem vitt tovább az előrehaladott makuladegeneráció megelőzésében.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/23644932/",
+          "badge": "Nem bizonyított"
+        },
+        {
+          "text": "Korábbi dohányosoknál a béta-karotin ágban több tüdőrák volt. A szerzők a luteint és a zeaxantint lehetséges cserének írják a képletben.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/23644932/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/savofeherje.html",
+      "title": "Savófehérje időskori szarkopéniában",
+      "claims": [
+        {
+          "text": "Időskori szarkopéniában a savófehérje egy 2024-es metaanalízis szerint több fizikai mutatót javíthat. A szerzők megerősítést kérnek.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38350303/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/feherje-idosek.html",
+      "title": "Savó és erősítés időskori izomvesztésnél: a hatás kicsi",
+      "claims": [
+        {
+          "text": "Erőedzés plusz savó kicsit növelte a kézszorítást és az izomtömeget szarkopéniás időseknél. A különbség nem érte el a klinikailag fontos mértéket, a bizonyíték gyenge.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37571361/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/koffein-figyelem.html",
+      "title": "Koffein és figyelem: éberség igen, a döntés kevésbé",
+      "claims": [
+        {
+          "text": "Mérsékelt koffeinadag mellett egy áttekintés szerint javul az éberség, a figyelem és a reakcióidő.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/27612937/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A memória és a döntéshozás kevésbé következetesen javul. Az alváshiányt a koffein nem pótolja, csak átmenetileg tarthatja a teljesítményt.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/27612937/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/beta-karotin.html",
+      "title": "Béta-karotin és dohányzás: a nagy adag nem semleges",
+      "claims": [
+        {
+          "text": "A nagy dózisú béta-karotin dohányosnál növelheti a tüdőrák kockázatát, és a készítmény a NIH szerint nem előzi meg a rákot.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminA-Consumer/",
+          "badge": "Nem bizonyított"
+        },
+        {
+          "text": "Nem dohányzó, egészséges embereknél egy áttekintés jótékony irányt is említ. Ez nem kapszula-ajánlás.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/20155614/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/krillolaj.html",
+      "title": "Krillolaj és halolaj: az omega-3 szint összevetése nem lezárt",
+      "claims": [
+        {
+          "text": "Az, hogy a krillolaj jobban emeli az n-3 zsírsavszintet, mint a halolaj, egy áttekintés szerint nem eldöntött.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/30688181/",
+          "badge": "Nem bizonyított"
+        },
+        {
+          "text": "A zsírsav kémiai formája, nem csak a kapszula neve, összefüggött a mért szintekkel.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/30688181/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/k2-natto.html",
+      "title": "Nattó és K2: japán megfigyelés, óvatos csontkövetkeztetés",
+      "claims": [
+        {
+          "text": "A szokásos nattófogyasztás együtt járt jobb K2-státusszal és csonthoz kötött markerekkel. A csontdenzitás bizonyossága alacsony, az adat főként megfigyelés.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/41393956/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/nac.html",
+      "title": "N-acetilcisztein bipoláris zavarban: a hatás többnyire nem volt jelentős",
+      "claims": [
+        {
+          "text": "Bipoláris zavarban a NAC pótlásának hatása egy áttekintés szerint főként nem volt jelentős.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/35608150/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/biotin-labor.html",
+      "title": "Biotin és labor: a hormonerredmény tévedhet",
+      "claims": [
+        {
+          "text": "A biotin zavarhatja a laborvizsgálatokat, köztük a hormonszintek mérését.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Biotin-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A zavar iránya nem egyforma, és a téves szám klinikai következménnyel járhat.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/34374345/",
+          "badge": "Korlátozott"
+        }
+      ]
     }
   ]
 }
