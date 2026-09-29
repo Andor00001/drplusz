@@ -1,0 +1,334 @@
+{
+  "articles": [
+    {
+      "path": "cikkek/c-vitamin.html",
+      "title": "C-vitamin: antioxidáns, kollagén, vas, és amit a kapszula nem ígérhet",
+      "claims": [
+        {
+          "text": "A C-vitamin antioxidánsként védi a sejteket, kell a kollagénhez és a sebgyógyuláshoz, javítja a növényi vas felszívódását, és segíti az immunrendszer működését.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminC-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Az az állítás, hogy a C-vitamin-kapszula megvéd a rák kialakulásától, a NIH összefoglalója szerint nem áll meg.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminC-Consumer/",
+          "badge": "Nem bizonyított"
+        },
+        {
+          "text": "A skorbut a tartós, nagyon alacsony bevitel betegsége. Ebből nem következik, hogy egészséges embernek nagy dózisú kapszula kellene.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminC-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/c-vitamin-megfazas.html",
+      "title": "C-vitamin és megfázás: a rendszeres szedés nem megelőzés",
+      "claims": [
+        {
+          "text": "Az az állítás, hogy a C-vitamin-kapszula a lakosság nagy részénél megelőzi a megfázást, sem a NIH, sem a Cochrane-áttekintés szerint nem áll meg.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/23440782/",
+          "badge": "Nem bizonyított"
+        },
+        {
+          "text": "A rendszeres pótlás a vizsgálatokban rövidítheti a megfázást. Ez nem ugyanaz, mint a már kialakult náthára bevett adag.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminC-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/vas.html",
+      "title": "Vas: hemoglobin, oxigén, és a hiány határa",
+      "claims": [
+        {
+          "text": "A szervezet a vasból hemoglobint és mioglobint készít. A vas kell a növekedéshez, a fejlődéshez és egyes hormonokhoz.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Iron-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Vashiányos vérszegénységben a pótlás javíthatja a terhelhetőséget. Aki nem hiányos, annál a plusz vas a NIH szerint nem növeli a sportteljesítményt.",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/vas-terhesseg.html",
+      "title": "Vas a várandósság alatt: hiány és a kimenetelek határa",
+      "claims": [
+        {
+          "text": "A rutin prenatális vaspótlás csökkenti a terhesség alatti vashiány és vashiányos vérszegénység előfordulását.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39163033/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A NIH a kis születési súlyt, a koraszülést és a csecsemő vasstátuszát is a túl kevés vashoz köti. A Task Force-összefoglaló a kimenetelekre vonatkozó bizonyítékot korlátozottnak vagy előny nélkülinek írja.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Iron-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/cink.html",
+      "title": "Cink: immunműködés, DNS, seb, ízérzés",
+      "claims": [
+        {
+          "text": "A cink kell az immunműködéshez, a DNS- és fehérjekészítéshez, a növekedéshez, a sebgyógyuláshoz és az ízérzéshez.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Zinc-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A nagy dózisú cinkpótlás a réz felszívódását zavarhatja. Ez ártalmi figyelmeztetés, nem adagolási tanács.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Copper-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/cink-megfazas.html",
+      "title": "Cink és megfázás: az időtartam, nem a megelőzés",
+      "claims": [
+        {
+          "text": "A cink a nátha elején kezdve gyorsíthatja a felépülést. A tünetek súlyosságát a NIH szerint nem befolyásolja, a megelőzésre a Cochrane szerint kevés vagy semmilyen hatás várható.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38719213/",
+          "badge": "Korlátozott"
+        },
+        {
+          "text": "A kezelésre használt cink valószínűleg növeli a nem súlyos mellékhatások kockázatát.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38719213/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/szelen.html",
+      "title": "Szelén: pajzsmirigy, DNS, és a kapszula rákos ígérete",
+      "claims": [
+        {
+          "text": "A pajzsmirigynek szelén kell a hormonok készítéséhez. A szelén kell a szaporodáshoz, a DNS-hez, a sejtvédelemhez és a fertőzéssel szembeni ellenálláshoz is.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Selenium-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A szelénkapszula azoknál a férfiaknál, akik ételből eleget kapnak, a NIH szerint nem csökkentette a prosztatarák kockázatát.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Selenium-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/kalcium.html",
+      "title": "Kalcium: csont, izom, ideg, és a törés nyitott kérdése",
+      "claims": [
+        {
+          "text": "A kalcium a csont és a fog szerkezetéhez, az izommozgáshoz és az idegi jelhez kell. A D-vitamin segíti a felszívódását.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Calcium-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A csontsűrűségre vonatkozó vizsgálatok nem egy irányba mutatnak, és a törésmegelőzés nem tisztázott.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Calcium-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/folat.html",
+      "title": "Folát és folsav: DNS, sejtosztódás, két forma",
+      "claims": [
+        {
+          "text": "A szervezetnek folát kell a DNS-hez és a sejtosztódáshoz. A folsav a dúsítás és a legtöbb készítmény formája.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Folate-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A túl kevés folát megaloblasztos vérszegénységet okozhat.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Folate-Consumer/",
+          "badge": "Jól alátámasztott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/folsav-velocso.html",
+      "title": "Folsav és velőcső: amit a várandósság előtt mond a kutatás",
+      "claims": [
+        {
+          "text": "A fogamzás előtt és a korai terhességben bevitt folsav segít megelőzni a velőcső-záródási rendellenességeket. A NIH napi 400 mikrogramm folsavat ír le a teherbe eshető nőknek és serdülő lányoknak, készítményből, dúsított ételből vagy mindkettőből.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Folate-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Egy 2023-as bizonyíték-összefoglaló ezt a hasznot további megfigyeléses adattal támasztja alá, és nem igazolt ártalmat többes terhesség, autizmus vagy anyai rák irányában.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37526714/",
+          "badge": "Jól alátámasztott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/b12-vitamin.html",
+      "title": "B12-vitamin: vér, ideg, DNS, és a homocisztein csapdája",
+      "claims": [
+        {
+          "text": "A B12 a vérsejtek és az idegsejtek egészségéhez és a DNS készítéséhez kell, és a hiánya megaloblasztos vérszegénységgel járhat.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A B12 csökkenti a homociszteint, de a NIH szerint ettől még nem csökkenti a szív-érrendszeri betegség vagy a stroke kockázatát.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/b6-vitamin.html",
+      "title": "B6-vitamin: enzimek, és a szívbetegség, amit a homocisztein nem oldott meg",
+      "claims": [
+        {
+          "text": "A B6 több mint száz anyagcsere-enzimreakcióhoz kell, és szerepe van az agyfejlődésben és az immunműködésben.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminB6-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A B-vitaminok csökkentik a homociszteint, de a NIH szerint nem csökkentik a szívbetegség vagy a stroke kockázatát.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminB6-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/tiamin.html",
+      "title": "Tiamin: energia a sejteknek, és a beri-beri határa",
+      "claims": [
+        {
+          "text": "A tiamin kell ahhoz, hogy a szervezet az ételből energiát nyerjen, és a sejtek működéséhez.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Thiamin-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A cukorbetegség és a szívelégtelenség kapcsán a pótlást még vizsgálják. A NIH nem állítja, hogy a kapszula ezeket a betegségeket kezeli.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Thiamin-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/riboflavin.html",
+      "title": "Riboflavin: a sejtek B2-vitaminja",
+      "claims": [
+        {
+          "text": "A riboflavin a sejtek növekedéséhez, fejlődéséhez és működéséhez kell, és segít az ételből energiát nyerni.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Riboflavin-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Ebből a szerepből nem következik, hogy a B2-kapszula egy adott betegséget megelőzne. Ilyen állítást ez a cikk nem vesz át.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Riboflavin-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/niacin.html",
+      "title": "Niacin: energia, pellagra, és a vényköteles nikotinsav határa",
+      "claims": [
+        {
+          "text": "A niacin kell az energianyeréshez és a sejtek működéséhez. A súlyos hiány pellagra.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Niacin-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A vényerejű nikotinsav javíthatja a vérzsírokat, de a NIH szerint ez nem változtatja a szív-érrendszeri esemény kockázatát. Ez nem étrend-kiegészítő-adag.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Niacin-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/biotin.html",
+      "title": "Biotin: energia, hajígéret, és a laborzavar",
+      "claims": [
+        {
+          "text": "A biotin segít a szénhidrát, a zsír és a fehérje energiává alakításában.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Biotin-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A haj, a bőr és a köröm reklámígéretét a NIH szerint kevés tudományos bizonyíték támasztja.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Biotin-Consumer/",
+          "badge": "Nem bizonyított"
+        },
+        {
+          "text": "A biotin zavarhatja a laborvizsgálatokat, köztük egyes hormonszintek mérését. Ezt a vérvétel előtt jelezni kell az ellátónak.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Biotin-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/pantotensav.html",
+      "title": "Pantoténsav: zsírok anyagcseréje, és a pantetin nyitott kérdése",
+      "claims": [
+        {
+          "text": "A pantoténsav kell az energianyeréshez és a zsírok anyagcseréjéhez.",
+          "source_url": "https://ods.od.nih.gov/factsheets/PantothenicAcid-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A pantetin koleszterinre és trigliceridre vonatkozó adatai ígéretesek, de a NIH szerint még nem elégségesek ajánláshoz.",
+          "source_url": "https://ods.od.nih.gov/factsheets/PantothenicAcid-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/kolin.html",
+      "title": "Kolin: sejtmembrán, idegrendszer, és a szívadatok ellentéte",
+      "claims": [
+        {
+          "text": "A kolin kell a sejtmembránokhoz, valamint az idegrendszer memória-, hangulat- és izomkontroll-működéséhez. A szükséglet nagy része ételből jön.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Choline-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A szívkockázatról szóló adatok ellentétesek. A NIH nem mondja ki, hogy a kolinkapszula véd vagy árt.",
+          "source_url": "https://ods.od.nih.gov/factsheets/Choline-Consumer/",
+          "badge": "Korlátozott"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/a-vitamin.html",
+      "title": "A-vitamin: látás, immunrendszer, és a dohányos béta-karotin",
+      "claims": [
+        {
+          "text": "Az A-vitamin fontos a normál látáshoz, az immunrendszerhez, a szaporodáshoz és a növekedéshez.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminA-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "Az A-vitamin- és a béta-karotin-készítmény a NIH szerint nem előzi meg a rákot. Dohányosoknál a nagy dózisú béta-karotin növelheti a tüdőrák kockázatát.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminA-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    },
+    {
+      "path": "cikkek/e-vitamin.html",
+      "title": "E-vitamin: antioxidáns, és a szívvizsgálatok, amelyek nem találtak hasznot",
+      "claims": [
+        {
+          "text": "Az E-vitamin antioxidáns, kell az immunműködéshez, és szerepe van az erek tágulásában és a véralvadás szabályozásában.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminE-Consumer/",
+          "badge": "Jól alátámasztott"
+        },
+        {
+          "text": "A placebóval összevetett jobb vizsgálatokban az E-vitamin-készítmény nem előzte meg a szívbetegséget.",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminE-Consumer/",
+          "badge": "Nem bizonyított"
+        }
+      ]
+    }
+  ]
+}

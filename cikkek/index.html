@@ -17,63 +17,188 @@
     <div class="mast">
       <a class="brand" href="../index.html">
         <img src="../img/logo.jpg" alt="DrPlusz logó: teal pluszjel és arany levél">
-        <span>
-          <span class="brand-name">DrPlusz</span>
-          <small>Termékmagazin</small>
-        </span>
+        <span><span class="brand-name">DrPlusz</span><small>Termékmagazin</small></span>
       </a>
       <nav aria-label="Főmenü">
-        <a href="../index.html">Főoldal</a><a href="../cikkek/index.html" aria-current="page">Cikkek</a><a href="../tesztek/d-vitamin-formak.html">Összehasonlítás</a><a href="../impresszum.html">Impresszum</a><a href="../adatkezeles.html">Adatkezelés</a>
+        <a href="../index.html">Főoldal</a><a href="index.html" aria-current="page">Cikkek</a><a href="../tesztek/d-vitamin-formak.html">Összehasonlítás</a><a href="../impresszum.html">Impresszum</a><a href="../adatkezeles.html">Adatkezelés</a>
       </nav>
     </div>
   </header>
   <main id="tartalom">
-
     <div class="wrap section">
-      <p class="issue"><span>Cikkek</span><span>01. szám</span></p>
+      <p class="issue"><span>Cikkek</span><span>23 írás</span></p>
       <h1>Cikkek</h1>
-      <p class="dek">Három induló téma. Új írás ugyanebbe a mappába kerülhet, külön HTML-fájlként.</p>
-      <div class="cards">
-        <article class="card">
-          <a class="block" href="d-vitamin.html">
-            <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1600&q=70" alt="Napkelte">
-            <div class="pad">
-              <p class="kicker">D-vitamin</p>
-              <h3>Csont, vérszint, és amit a VITAL nem mutatott ki</h3>
-            </div>
-          </a>
-        </article>
-        <article class="card">
-          <a class="block" href="omega-3.html">
-            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1600&q=70" alt="Lazac">
-            <div class="pad">
-              <p class="kicker">Omega-3</p>
-              <h3>Hal, kapszula, triglicerid és elsődleges megelőzés</h3>
-            </div>
-          </a>
-        </article>
-        <article class="card">
-          <a class="block" href="magnezium.html">
-            <img src="https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=1600&q=70" alt="Spenót">
-            <div class="pad">
-              <p class="kicker">Magnézium</p>
-              <h3>Izom, ideg, formák, és a pótlás felső határa</h3>
-            </div>
-          </a>
-        </article>
+      <p class="dek">A három induló téma megmaradt. Az új írások ugyanebbe a mappába kerültek, külön HTML-fájlként. A lista mobilon egy oszlop, lapozható.</p>
+      <div class="catalog-tools">
+        <label>Keresés <input id="q" type="search" placeholder="téma vagy cím"></label>
+        <p class="meta" id="talalat"></p>
       </div>
+      <div class="alist" id="lista">
+        <article class="arow" data-title="D-vitamin D-vitamin: a csonthoz elég a bizonyíték, a rákmegelőzéshez nem">
+      <a class="block" href="d-vitamin.html">
+        <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Napkelte">
+        <div class="pad"><p class="kicker">D-vitamin</p><h3>D-vitamin: a csonthoz elég a bizonyíték, a rákmegelőzéshez nem</h3></div>
+      </a>
+    </article><article class="arow" data-title="Omega-3 Omega-3: a szív működése és a kapszula határa">
+      <a class="block" href="omega-3.html">
+        <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Lazac">
+        <div class="pad"><p class="kicker">Omega-3</p><h3>Omega-3: a szív működése és a kapszula határa</h3></div>
+      </a>
+    </article><article class="arow" data-title="Magnézium Magnézium: ételből, pótlásból, és amit még nem tudunk">
+      <a class="block" href="magnezium.html">
+        <img src="https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Spenót">
+        <div class="pad"><p class="kicker">Magnézium</p><h3>Magnézium: ételből, pótlásból, és amit még nem tudunk</h3></div>
+      </a>
+    </article><article class="arow" data-title="C-vitamin C-vitamin: antioxidáns, kollagén, vas, és amit a kapszula nem ígérhet">
+      <a class="block" href="c-vitamin.html">
+        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">C-vitamin</p><h3>C-vitamin: antioxidáns, kollagén, vas, és amit a kapszula nem ígérhet</h3></div>
+      </a>
+    </article><article class="arow" data-title="C-vitamin C-vitamin és megfázás: a rendszeres szedés nem megelőzés">
+      <a class="block" href="c-vitamin-megfazas.html">
+        <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">C-vitamin</p><h3>C-vitamin és megfázás: a rendszeres szedés nem megelőzés</h3></div>
+      </a>
+    </article><article class="arow" data-title="Vas Vas: hemoglobin, oxigén, és a hiány határa">
+      <a class="block" href="vas.html">
+        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Vas</p><h3>Vas: hemoglobin, oxigén, és a hiány határa</h3></div>
+      </a>
+    </article><article class="arow" data-title="Vas Vas a várandósság alatt: hiány és a kimenetelek határa">
+      <a class="block" href="vas-terhesseg.html">
+        <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Vas</p><h3>Vas a várandósság alatt: hiány és a kimenetelek határa</h3></div>
+      </a>
+    </article><article class="arow" data-title="Cink Cink: immunműködés, DNS, seb, ízérzés">
+      <a class="block" href="cink.html">
+        <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Cink</p><h3>Cink: immunműködés, DNS, seb, ízérzés</h3></div>
+      </a>
+    </article><article class="arow" data-title="Cink Cink és megfázás: az időtartam, nem a megelőzés">
+      <a class="block" href="cink-megfazas.html">
+        <img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Cink</p><h3>Cink és megfázás: az időtartam, nem a megelőzés</h3></div>
+      </a>
+    </article><article class="arow" data-title="Szelén Szelén: pajzsmirigy, DNS, és a kapszula rákos ígérete">
+      <a class="block" href="szelen.html">
+        <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Szelén</p><h3>Szelén: pajzsmirigy, DNS, és a kapszula rákos ígérete</h3></div>
+      </a>
+    </article><article class="arow" data-title="Kalcium Kalcium: csont, izom, ideg, és a törés nyitott kérdése">
+      <a class="block" href="kalcium.html">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Kalcium</p><h3>Kalcium: csont, izom, ideg, és a törés nyitott kérdése</h3></div>
+      </a>
+    </article><article class="arow" data-title="Folát Folát és folsav: DNS, sejtosztódás, két forma">
+      <a class="block" href="folat.html">
+        <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Folát</p><h3>Folát és folsav: DNS, sejtosztódás, két forma</h3></div>
+      </a>
+    </article><article class="arow" data-title="Folsav Folsav és velőcső: amit a várandósság előtt mond a kutatás">
+      <a class="block" href="folsav-velocso.html">
+        <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Folsav</p><h3>Folsav és velőcső: amit a várandósság előtt mond a kutatás</h3></div>
+      </a>
+    </article><article class="arow" data-title="B12-vitamin B12-vitamin: vér, ideg, DNS, és a homocisztein csapdája">
+      <a class="block" href="b12-vitamin.html">
+        <img src="https://images.unsplash.com/photo-1615485500704-8e990f9900f7?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">B12-vitamin</p><h3>B12-vitamin: vér, ideg, DNS, és a homocisztein csapdája</h3></div>
+      </a>
+    </article><article class="arow" data-title="B6-vitamin B6-vitamin: enzimek, és a szívbetegség, amit a homocisztein nem oldott meg">
+      <a class="block" href="b6-vitamin.html">
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">B6-vitamin</p><h3>B6-vitamin: enzimek, és a szívbetegség, amit a homocisztein nem oldott meg</h3></div>
+      </a>
+    </article><article class="arow" data-title="Tiamin Tiamin: energia a sejteknek, és a beri-beri határa">
+      <a class="block" href="tiamin.html">
+        <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Tiamin</p><h3>Tiamin: energia a sejteknek, és a beri-beri határa</h3></div>
+      </a>
+    </article><article class="arow" data-title="Riboflavin Riboflavin: a sejtek B2-vitaminja">
+      <a class="block" href="riboflavin.html">
+        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Riboflavin</p><h3>Riboflavin: a sejtek B2-vitaminja</h3></div>
+      </a>
+    </article><article class="arow" data-title="Niacin Niacin: energia, pellagra, és a vényköteles nikotinsav határa">
+      <a class="block" href="niacin.html">
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Niacin</p><h3>Niacin: energia, pellagra, és a vényköteles nikotinsav határa</h3></div>
+      </a>
+    </article><article class="arow" data-title="Biotin Biotin: energia, hajígéret, és a laborzavar">
+      <a class="block" href="biotin.html">
+        <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Biotin</p><h3>Biotin: energia, hajígéret, és a laborzavar</h3></div>
+      </a>
+    </article><article class="arow" data-title="Pantoténsav Pantoténsav: zsírok anyagcseréje, és a pantetin nyitott kérdése">
+      <a class="block" href="pantotensav.html">
+        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Pantoténsav</p><h3>Pantoténsav: zsírok anyagcseréje, és a pantetin nyitott kérdése</h3></div>
+      </a>
+    </article><article class="arow" data-title="Kolin Kolin: sejtmembrán, idegrendszer, és a szívadatok ellentéte">
+      <a class="block" href="kolin.html">
+        <img src="https://images.unsplash.com/photo-1478144592103-25e218a04891?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">Kolin</p><h3>Kolin: sejtmembrán, idegrendszer, és a szívadatok ellentéte</h3></div>
+      </a>
+    </article><article class="arow" data-title="A-vitamin A-vitamin: látás, immunrendszer, és a dohányos béta-karotin">
+      <a class="block" href="a-vitamin.html">
+        <img src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">A-vitamin</p><h3>A-vitamin: látás, immunrendszer, és a dohányos béta-karotin</h3></div>
+      </a>
+    </article><article class="arow" data-title="E-vitamin E-vitamin: antioxidáns, és a szívvizsgálatok, amelyek nem találtak hasznot">
+      <a class="block" href="e-vitamin.html">
+        <img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="Stockfotó">
+        <div class="pad"><p class="kicker">E-vitamin</p><h3>E-vitamin: antioxidáns, és a szívvizsgálatok, amelyek nem találtak hasznot</h3></div>
+      </a>
+    </article>
+      </div>
+      <nav class="pager" id="lapoz" aria-label="Lapozás"></nav>
     </div>
-
   </main>
   <footer>
     <div class="wrap">
       <strong style="color:var(--ink);font-family:var(--serif);font-size:1.25rem">DrPlusz</strong>
       <p>Független egészségügyi termékmagazin. Nem egészségügyi szolgáltató és nem magánrendelő. Nincs kapcsolatban a székesfehérvári Doktor Plusz Magánorvosi Központtal (doktorplusz.com).</p>
       <nav aria-label="Lábléc">
-        <a href="../index.html">Főoldal</a><a href="../cikkek/index.html" aria-current="page">Cikkek</a><a href="../tesztek/d-vitamin-formak.html">Összehasonlítás</a><a href="../impresszum.html">Impresszum</a><a href="../adatkezeles.html">Adatkezelés</a>
+        <a href="../index.html">Főoldal</a><a href="index.html" aria-current="page">Cikkek</a><a href="../tesztek/d-vitamin-formak.html">Összehasonlítás</a><a href="../impresszum.html">Impresszum</a><a href="../adatkezeles.html">Adatkezelés</a>
       </nav>
       <p class="note">01. szám · 2026. szeptember 29. · Az oldalon szereplő amerikai és európai intézeti számok nem magyar kezelési előírások.</p>
     </div>
   </footer>
+  <script>
+  (function() {
+    var pageSize = 20;
+    var q = document.getElementById("q");
+    var list = document.getElementById("lista");
+    var rows = Array.prototype.slice.call(list.children);
+    var pager = document.getElementById("lapoz");
+    var info = document.getElementById("talalat");
+    var page = 0;
+    function filtered() {
+      var s = (q.value || "").toLocaleLowerCase("hu");
+      return rows.filter(function(el) {
+        return !s || (el.getAttribute("data-title") || "").toLocaleLowerCase("hu").indexOf(s) !== -1;
+      });
+    }
+    function draw() {
+      var all = filtered();
+      var pages = Math.max(1, Math.ceil(all.length / pageSize));
+      if (page >= pages) page = pages - 1;
+      rows.forEach(function(el) { el.hidden = true; });
+      all.slice(page * pageSize, page * pageSize + pageSize).forEach(function(el) { el.hidden = false; });
+      info.textContent = all.length + " találat · " + (page + 1) + "/" + pages + " oldal";
+      pager.innerHTML = "";
+      for (var i = 0; i < pages; i++) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.textContent = String(i + 1);
+        if (i === page) b.setAttribute("aria-current", "page");
+        (function(n) { b.addEventListener("click", function() { page = n; draw(); }); })(i);
+        pager.appendChild(b);
+      }
+    }
+    q.addEventListener("input", function() { page = 0; draw(); });
+    draw();
+  })();
+  </script>
 </body>
 </html>
