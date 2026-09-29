@@ -265,3 +265,122 @@ footer nav { font-size: 0.92rem; }
   .arow { grid-template-columns:1fr; }
   .arow img { width:100%; height:160px; }
 }
+
+/* Címlap: nagy fotó + eltérő vágású kártyák. Nem bizonyíték-színkulcs. */
+.fine {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: 0.55rem 0 0;
+}
+.cover {
+  margin: 1.1rem 0 1.3rem;
+}
+.cover-hero {
+  position: relative;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 18px;
+  overflow: hidden;
+  min-height: 460px;
+  background: #1b2421;
+}
+.cover-hero img {
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+  object-position: center 42%;
+}
+.cover-hero-copy {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 4.5rem 1.5rem 1.25rem;
+  background: linear-gradient(to top, rgba(15, 22, 20, 0.88) 0%, rgba(15, 22, 20, 0.35) 55%, transparent 100%);
+  color: #f7f2ea;
+}
+.cover-hero-copy h1 {
+  color: #fff;
+  font-size: clamp(2rem, 4.2vw, 3.5rem);
+  max-width: 18ch;
+  margin: 0.25rem 0 0.45rem;
+}
+.cover-hero-copy .dek {
+  color: #f3ebe0;
+  font-size: 1.12rem;
+  max-width: 38rem;
+  margin: 0 0 0.45rem;
+}
+.cover-hero-copy .kicker { color: #e6c57a; }
+.cover-hero-copy .credit, .cover-hero-copy .credit a { color: #efe6d8; }
+
+.mag {
+  display: grid;
+  grid-template-columns: 1.25fr 0.9fr 1.05fr;
+  grid-template-areas:
+    "omega mag cvit"
+    "omega mag vas"
+    "feh kof pro"
+    "kre kre pro";
+  gap: 0.9rem;
+}
+.story {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.story a.block { color: inherit; text-decoration: none; display: flex; flex-direction: column; height: 100%; }
+.story img { width: 100%; object-fit: cover; }
+.story .pad { padding: 0.8rem 0.95rem 0.95rem; }
+.story h2, .story h3 { margin: 0.15rem 0 0.35rem; }
+.story h3 { font-size: 1.2rem; }
+.story .dek { font-size: 0.98rem; margin: 0; line-height: 1.4; }
+.story .credit { margin: 0.45rem 0 0; }
+
+.s-omega { grid-area: omega; }
+.s-omega img { height: 340px; object-position: center 40%; }
+.s-omega h2 { font-size: clamp(1.55rem, 2.4vw, 2.15rem); }
+
+.s-mag { grid-area: mag; }
+.s-mag img { height: 280px; object-position: center; }
+.s-mag .pad { padding-top: 0.7rem; }
+
+.s-cvit { grid-area: cvit; }
+.s-cvit { flex-direction: row; }
+.s-cvit a.block { flex-direction: row; }
+.s-cvit img { width: 42%; height: 100%; min-height: 148px; object-position: center 30%; }
+.s-cvit .pad { flex: 1; }
+
+.s-vas { grid-area: vas; }
+.s-vas img { height: 118px; object-position: center 60%; }
+
+.s-feh { grid-area: feh; }
+.s-feh img { height: 168px; object-position: center 45%; }
+
+.s-kof { grid-area: kof; }
+.s-kof img { height: 210px; object-position: center 20%; }
+
+.s-pro { grid-area: pro; }
+.s-pro img { height: 250px; object-position: center 35%; }
+
+.s-kre { grid-area: kre; }
+.s-kre a.block { flex-direction: row; align-items: stretch; }
+.s-kre img { width: 46%; height: auto; min-height: 150px; object-position: center; }
+.s-kre .pad { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+
+@media (max-width: 860px) {
+  .cover-hero { min-height: 0; }
+  .cover-hero img { height: 320px; }
+  .cover-hero-copy h1 { max-width: none; }
+  .mag { grid-template-columns: 1fr; grid-template-areas: "omega" "mag" "cvit" "vas" "feh" "kof" "pro" "kre"; }
+  .s-cvit, .s-cvit a.block, .s-kre a.block { flex-direction: column; }
+  .s-cvit img, .s-kre img { width: 100%; height: 180px; }
+  .s-omega img, .s-mag img, .s-pro img, .s-kof img { height: 200px; }
+}
