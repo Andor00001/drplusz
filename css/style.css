@@ -372,3 +372,97 @@ footer nav { font-size: 0.92rem; }
   .mag { grid-template-columns: 1fr; }
   .story img { width: 100%; height: 200px; }
 }
+
+
+/* Keretes különírás: a cikk folyásában, nem a címlap rácsában. */
+.masik-oldal {
+  position: static;
+  margin: 1.45rem 0 1.55rem;
+  padding: 0.9rem 1rem 1rem;
+  background: #f7f1e4;
+  border: 1px solid #c9b89a;
+  border-left: 4px solid var(--gold);
+  border-radius: 14px;
+  clear: both;
+}
+.masik-fej {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+.prose .masik-oldal h2,
+.masik-oldal h2 {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--gold);
+  line-height: 1.2;
+}
+.masik-ikonok {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--teal-deep);
+  flex: 0 0 auto;
+}
+.masik-ikonok svg { display: block; }
+.masik-jel {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: 0.4rem 0 0.75rem;
+}
+.masik-paros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.55rem;
+  margin: 0 0 0.85rem;
+}
+.masik-oszlop {
+  background: rgba(255, 252, 247, 0.72);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.45rem 0.55rem 0.5rem;
+  min-width: 0;
+}
+.masik-cimke {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.masik-sav {
+  display: block;
+  height: 7px;
+  width: 4.6rem;
+  max-width: 70%;
+  margin: 0.38rem 0 0.32rem;
+  border-radius: 99px;
+  background: var(--teal);
+}
+.masik-sav-b { background: var(--gold); }
+.masik-szo {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.25;
+}
+.prose .masik-oldal p { margin: 0 0 0.75rem; }
+.masik-forras {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  margin: 0;
+}
+.masik-forras a { word-break: break-word; }
+@media (max-width: 860px) {
+  .masik-paros { grid-template-columns: 1fr; }
+  .masik-fej { align-items: flex-start; }
+}
