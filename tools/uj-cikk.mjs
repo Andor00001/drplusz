@@ -184,6 +184,8 @@ function articleHtml(d, meta) {
   <meta name="description" content="${esc(d.dek)}">
   <link rel="icon" href="../img/logo.jpg" type="image/jpeg">
   <link rel="stylesheet" href="../css/style.css">
+  <meta name="google-adsense-account" content="ca-pub-7469553873431777">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7469553873431777" crossorigin="anonymous"></script>
 </head>
 <body>
   <a class="skip" href="#tartalom">Ugrás a tartalomra</a>
