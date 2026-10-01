@@ -254,29 +254,55 @@ footer nav { font-size: 0.92rem; }
 .catalog-tools input { font-family:var(--sans); font-size:1rem; padding:0.65rem 0.8rem; border-radius:12px; border:1px solid var(--line); background:var(--paper); color:var(--ink); min-width:min(100%, 16rem); }
 .alist { display:block; }
 .arow {
-  display: block;
+  display: flow-root;
   background: transparent;
   border: 0;
   border-bottom: 1px solid var(--line);
   border-radius: 0;
-  overflow: auto;
+  overflow: visible;
   box-shadow: none;
   padding: 0.85rem 0 0.95rem;
 }
 .arow a.block { display: block; color: inherit; text-decoration: none; }
+/* Cikklista: a bélyeg nem arany keretes téglalap. A fotó kontúrja circle / ellipse / polygon, shape-outside ugyanaz, mint a clip-path. Nem url(). */
 .arow img {
   float: left;
-  width: 9.2rem;
-  height: 6.8rem;
+  width: 8.6rem;
+  height: 8.6rem;
   min-height: 0;
   object-fit: cover;
-  margin: 0.15rem 0.95rem 0.35rem 0;
-  border: 1px solid var(--gold);
+  margin: 0.15rem 0 0.35rem 0;
+  border: 0;
+  border-radius: 0;
+  shape-outside: circle(40%) border-box;
+  clip-path: circle(40%);
+  shape-margin: 0.95rem;
 }
-.alist .arow:nth-child(2n) img { float: right; margin: 0.15rem 0 0.35rem 0.95rem; }
-.alist .arow:nth-child(3n) img { width: 12.4rem; height: 8.4rem; }
-.alist .arow:nth-child(4n) img { width: 7.2rem; height: 5.4rem; }
-.alist .arow:nth-child(5n) img { width: 10.4rem; height: 7.2rem; }
+.alist .arow:nth-child(2n) img {
+  float: right;
+  width: 9.8rem;
+  height: 9.8rem;
+  shape-outside: polygon(50% 7%, 86% 16%, 95% 48%, 78% 84%, 46% 96%, 16% 82%, 5% 52%, 14% 18%) border-box;
+  clip-path: polygon(50% 7%, 86% 16%, 95% 48%, 78% 84%, 46% 96%, 16% 82%, 5% 52%, 14% 18%);
+}
+.alist .arow:nth-child(3n) img {
+  width: 12rem;
+  height: 8.8rem;
+  shape-outside: ellipse(40% 42% at 50% 50%) border-box;
+  clip-path: ellipse(40% 42% at 50% 50%);
+}
+.alist .arow:nth-child(4n) img {
+  width: 8.2rem;
+  height: 10rem;
+  shape-outside: polygon(28% 6%, 68% 2%, 94% 26%, 90% 62%, 64% 94%, 24% 90%, 6% 64%, 8% 28%) border-box;
+  clip-path: polygon(28% 6%, 68% 2%, 94% 26%, 90% 62%, 64% 94%, 24% 90%, 6% 64%, 8% 28%);
+}
+.alist .arow:nth-child(5n) img {
+  width: 10.2rem;
+  height: 10.2rem;
+  shape-outside: circle(38%) border-box;
+  clip-path: circle(38%);
+}
 .arow h3 { font-size: 1.28rem; margin-top: 0; }
 .arow .pad { padding: 0; }
 .pager { display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:1rem; }
@@ -295,71 +321,118 @@ footer nav { font-size: 0.92rem; }
     display: block;
     width: 100%;
     max-width: 100%;
-    height: 11rem;
+    height: auto;
+    aspect-ratio: 16 / 9;
     margin: 0 0 0.65rem;
+    shape-outside: none;
+    clip-path: none;
   }
 }
 
-/* Címlap: körbefuttatott tördelés. A fotó a szövegben lebeg, balra vagy jobbra, nem kártyaoszlop. */
-.folio { margin: 1rem 0 0.2rem; border-top: 3px solid var(--gold); }
+/* Címlap: egy szöveghasáb. A fotó lebeg, a szöveg a nem téglalap kontúr mentén fut.
+   shape-outside és clip-path ugyanaz az alapforma (circle / ellipse / polygon). A JPEG-ek átlátszatlanok, ezért alapforma, nem a kép alfa-csatornája. */
+.sheet { max-width: 44rem; }
+.folio {
+  margin: 1.15rem 0 0.2rem;
+  border-top: 1px solid var(--gold);
+}
 .run {
   display: flow-root;
-  padding: 1.05rem 0 1.15rem;
+  overflow: visible;
+  padding: 1.2rem 0 1.15rem;
   border-bottom: 1px solid var(--line);
   background: transparent;
+  border-radius: 0;
+  box-shadow: none;
 }
 .run a.inset {
   display: block;
   float: right;
-  width: 38%;
+  width: 42%;
   max-width: 100%;
-  margin: 0.15rem 0 0.55rem 1.15rem;
+  margin: 0.15rem 0 0.35rem 0;
+  border: 0;
+  background: transparent;
+  shape-margin: 1.05rem;
 }
-.run a.inset.left { float: left; margin: 0.15rem 1.15rem 0.55rem 0; }
-.run a.inset.s-xl { width: 48%; }
-.run a.inset.s-lg { width: 42%; }
-.run a.inset.s-md { width: 33%; }
-.run a.inset.s-sm { width: 26%; }
+.run a.inset.left { float: left; }
 .run a.inset img {
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 3;
+  display: block;
   object-fit: cover;
-  border: 1px solid var(--gold);
-  border-radius: 2px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
 }
-.run a.inset.s-xl img { aspect-ratio: 3 / 2; }
-.run a.inset.s-lg img { aspect-ratio: 4 / 3; }
-.run a.inset.s-md img { aspect-ratio: 1 / 1; }
-.run a.inset.s-sm img { aspect-ratio: 5 / 4; }
-.run h1 { font-size: clamp(1.85rem, 3.2vw, 2.85rem); margin: 0.2rem 0 0.45rem; }
-.run h3 { font-size: clamp(1.28rem, 2vw, 1.6rem); }
+/* Vezető: nagy, sokpontos poligon, a hasáb kb. felén. A cím és a dek a görbe mentén fut. */
+.run a.inset.shape-lead {
+  width: 54%;
+  shape-outside: polygon(30% 7%, 58% 3%, 82% 12%, 96% 32%, 93% 58%, 76% 82%, 50% 96%, 24% 90%, 8% 70%, 4% 44%, 12% 20%) border-box;
+  clip-path: polygon(30% 7%, 58% 3%, 82% 12%, 96% 32%, 93% 58%, 76% 82%, 50% 96%, 24% 90%, 8% 70%, 4% 44%, 12% 20%);
+}
+.run a.inset.shape-lead img { aspect-ratio: 5 / 4; }
+.run a.inset.shape-circle {
+  width: 12rem;
+  shape-outside: circle(40%) border-box;
+  clip-path: circle(40%);
+}
+.run a.inset.shape-circle img { aspect-ratio: 1 / 1; }
+.run a.inset.shape-circle.shape-sm { width: 9.25rem; }
+.run a.inset.shape-ellipse {
+  width: 46%;
+  shape-outside: ellipse(40% 44% at 50% 50%) border-box;
+  clip-path: ellipse(40% 44% at 50% 50%);
+}
+.run a.inset.shape-ellipse img { aspect-ratio: 5 / 4; }
+.run a.inset.shape-poly {
+  width: 40%;
+  shape-outside: polygon(48% 4%, 80% 12%, 96% 38%, 88% 72%, 58% 96%, 22% 86%, 5% 56%, 10% 24%, 28% 8%) border-box;
+  clip-path: polygon(48% 4%, 80% 12%, 96% 38%, 88% 72%, 58% 96%, 22% 86%, 5% 56%, 10% 24%, 28% 8%);
+}
+.run a.inset.shape-poly img { aspect-ratio: 1 / 1; }
+.run a.inset.shape-poly-b {
+  width: 34%;
+  shape-outside: polygon(16% 16%, 48% 4%, 78% 14%, 95% 40%, 84% 74%, 54% 96%, 22% 88%, 5% 62%, 6% 32%) border-box;
+  clip-path: polygon(16% 16%, 48% 4%, 78% 14%, 95% 40%, 84% 74%, 54% 96%, 22% 88%, 5% 62%, 6% 32%);
+}
+.run a.inset.shape-poly-b img { aspect-ratio: 4 / 5; }
+.run h1 { font-size: clamp(2rem, 4vw, 3.15rem); margin: 0.15rem 0 0.45rem; }
+.run h3 { font-size: clamp(1.22rem, 2vw, 1.48rem); }
 .run h1 a, .run h3 a { color: inherit; text-decoration: none; }
 .run h1 a:hover, .run h3 a:hover { color: var(--teal); }
-.run .dek { font-size: 1.08rem; margin: 0 0 0.45rem; max-width: none; }
+.run .dek { font-size: 1.05rem; margin: 0 0 0.45rem; max-width: none; }
+.run:first-child .dek { font-size: 1.2rem; }
 .run .credit { margin-top: 0.35rem; }
 @media (max-width: 860px) {
   .run a.inset,
   .run a.inset.left,
-  .run a.inset.s-xl,
-  .run a.inset.s-lg,
-  .run a.inset.s-md,
-  .run a.inset.s-sm {
+  .run a.inset.shape-lead,
+  .run a.inset.shape-circle,
+  .run a.inset.shape-circle.shape-sm,
+  .run a.inset.shape-ellipse,
+  .run a.inset.shape-poly,
+  .run a.inset.shape-poly-b {
     float: none;
     width: 100%;
     max-width: 100%;
+    height: auto;
     margin: 0 0 0.75rem;
+    shape-outside: none;
+    clip-path: none;
   }
   .run a.inset img,
-  .run a.inset.s-xl img,
-  .run a.inset.s-lg img,
-  .run a.inset.s-md img,
-  .run a.inset.s-sm img {
+  .run a.inset.shape-lead img,
+  .run a.inset.shape-circle img,
+  .run a.inset.shape-ellipse img,
+  .run a.inset.shape-poly img,
+  .run a.inset.shape-poly-b img {
     width: 100%;
     max-width: 100%;
-    height: 200px;
-    aspect-ratio: auto;
+    height: auto;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
+    clip-path: none;
   }
   .run h1 { font-size: 1.7rem; }
 }
