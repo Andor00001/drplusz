@@ -529,3 +529,164 @@ footer nav { font-size: 0.92rem; }
   .masik-paros { grid-template-columns: 1fr; }
   .masik-fej { align-items: flex-start; }
 }
+
+/* Címlap, 2026-10: újságtördelés. Nincs arany keretes kártyarács.
+   A hasábok csak itt élnek; a cikkoldalak .prose / .mast marad. */
+.front-head { background: transparent; }
+.front-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  padding-top: 0.85rem;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.front-top a { color: var(--ink); text-decoration: none; font-weight: 600; }
+.front-nameplate {
+  text-align: center;
+  padding: 0.35rem 0 0.85rem;
+  border-bottom: 3px solid var(--ink);
+}
+.front-word {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 640;
+  font-size: clamp(3.4rem, 8vw, 5.8rem);
+  letter-spacing: -0.045em;
+  line-height: 0.88;
+  color: var(--ink);
+}
+.front-sub {
+  margin: 0.35rem 0 0.7rem;
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.front-nameplate nav { justify-content: center; }
+.front { padding-bottom: 1.5rem; }
+.front-fine {
+  margin: 0.35rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.front-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(16rem, 0.85fr);
+  gap: 1.75rem 2rem;
+  padding: 1.15rem 0 0.4rem;
+  border-top: 1px solid var(--ink);
+  margin-top: 0.7rem;
+}
+.front h1 {
+  font-size: clamp(1.85rem, 3.1vw, 2.65rem);
+  margin: 0.15rem 0 0.55rem;
+}
+.front h2 {
+  font-size: clamp(1.15rem, 1.7vw, 1.45rem);
+  margin: 0.1rem 0 0.35rem;
+}
+.front h1 a, .front h2 a, .front h3 a { color: inherit; text-decoration: none; }
+.front h1 a:hover, .front h2 a:hover, .front h3 a:hover { color: var(--teal); }
+.front .dek { font-size: 1.05rem; margin: 0 0 0.45rem; max-width: none; }
+.front-lead .dek { font-size: 1.12rem; }
+.front-photo { display: block; text-decoration: none; }
+.front-photo img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+  background: #ddd6cb;
+}
+.front-lead .front-photo { margin-top: 0.85rem; }
+.front-lead .front-photo img { max-height: 460px; aspect-ratio: 3 / 2; }
+.front .credit { font-size: 0.72rem; margin: 0.28rem 0 0; }
+.front-rail {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-left: 1px solid var(--line);
+  padding-left: 1.25rem;
+}
+.rail-item {
+  display: grid;
+  grid-template-columns: 5.6rem minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+.rail-item:first-child { padding-top: 0; }
+.rail-item img {
+  width: 5.6rem;
+  height: 4.4rem;
+  object-fit: cover;
+  border-radius: 0;
+}
+.rail-item .dek { font-size: 0.92rem; }
+.rail-item h2 { font-size: 1.05rem; }
+.front-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.9fr);
+  gap: 1.4rem 1.8rem;
+  align-items: center;
+  padding: 1.35rem 0;
+  border-top: 1px solid var(--line);
+  margin-top: 0.6rem;
+}
+.front-feature .front-photo img { max-height: 440px; aspect-ratio: 3 / 2; }
+.front-feature-flip { grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.15fr); }
+.front-feature-flip .front-photo img { aspect-ratio: 4 / 5; max-height: 480px; }
+.front-subs {
+  margin: 0.7rem 0 0.2rem;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+.front-subs li {
+  margin: 0;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--serif);
+  font-size: 1.02rem;
+}
+.front-trio {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem 1.4rem;
+  padding: 1.25rem 0 0.4rem;
+  border-top: 1px solid var(--ink);
+  margin-top: 0.2rem;
+}
+.front-trio .front-photo img { aspect-ratio: 3 / 2; max-height: 220px; }
+.front-trio h2 { font-size: 1.22rem; margin-top: 0.45rem; }
+.front .home-list { columns: 3; }
+@media (max-width: 860px) {
+  .front-hero,
+  .front-feature,
+  .front-feature-flip,
+  .front-trio { grid-template-columns: 1fr; }
+  .front-rail {
+    border-left: 0;
+    padding-left: 0;
+    border-top: 1px solid var(--line);
+  }
+  .front-lead .front-photo img,
+  .front-feature .front-photo img,
+  .front-feature-flip .front-photo img,
+  .front-trio .front-photo img {
+    max-height: none;
+    aspect-ratio: 16 / 10;
+  }
+  .front .home-list { columns: 1; }
+  .front-nameplate nav { justify-content: flex-start; }
+}
