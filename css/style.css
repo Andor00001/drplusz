@@ -1,4 +1,4 @@
-/* DrPlusz — szerkesztőségi termékmagazin. Egy CSS, nincs keretrendszer. */
+/* DrPlusz — szerkesztőségi egészségügyi magazin. Egy CSS, nincs keretrendszer. */
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,520;9..144,640&family=Outfit:wght@420;520;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,420;0,8..60,600;1,8..60,460&display=swap");
 
 :root {
@@ -102,13 +102,15 @@ a:hover { color: var(--teal); }
 }
 .brand small {
   display: block;
+  max-width: 11.5rem;
   margin-top: 0.2rem;
   font-family: var(--sans);
   font-size: 0.68rem;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.11em;
   text-transform: uppercase;
   color: var(--gold);
   font-weight: 600;
+  white-space: normal;
 }
 nav { display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; font-family: var(--sans); font-size: 0.95rem; }
 nav a { text-decoration: none; color: var(--ink); }
@@ -250,11 +252,33 @@ footer nav { font-size: 0.92rem; }
 
 .catalog-tools { display:flex; flex-wrap:wrap; gap:0.75rem; align-items:center; margin:0.4rem 0 1rem; }
 .catalog-tools input { font-family:var(--sans); font-size:1rem; padding:0.65rem 0.8rem; border-radius:12px; border:1px solid var(--line); background:var(--paper); color:var(--ink); min-width:min(100%, 16rem); }
-.alist { display:grid; gap:0.75rem; }
-.arow { display:grid; grid-template-columns:112px 1fr; background:var(--paper); border:1px solid var(--line); border-radius:16px; overflow:hidden; box-shadow:var(--shadow); }
-.arow a.block { display:contents; color:inherit; text-decoration:none; }
-.arow img { width:112px; height:100%; min-height:96px; object-fit:cover; }
-.arow h3 { font-size:1.2rem; }
+.alist { display:block; }
+.arow {
+  display: block;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  overflow: auto;
+  box-shadow: none;
+  padding: 0.85rem 0 0.95rem;
+}
+.arow a.block { display: block; color: inherit; text-decoration: none; }
+.arow img {
+  float: left;
+  width: 9.2rem;
+  height: 6.8rem;
+  min-height: 0;
+  object-fit: cover;
+  margin: 0.15rem 0.95rem 0.35rem 0;
+  border: 1px solid var(--gold);
+}
+.alist .arow:nth-child(2n) img { float: right; margin: 0.15rem 0 0.35rem 0.95rem; }
+.alist .arow:nth-child(3n) img { width: 12.4rem; height: 8.4rem; }
+.alist .arow:nth-child(4n) img { width: 7.2rem; height: 5.4rem; }
+.alist .arow:nth-child(5n) img { width: 10.4rem; height: 7.2rem; }
+.arow h3 { font-size: 1.28rem; margin-top: 0; }
+.arow .pad { padding: 0; }
 .pager { display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:1rem; }
 .pager button { font-family:var(--sans); background:var(--paper); color:var(--ink); border:1px solid var(--line); border-radius:999px; padding:0.4rem 0.75rem; cursor:pointer; }
 .pager button[aria-current="page"] { background:var(--teal-deep); color:#fff; border-color:var(--teal-deep); }
@@ -262,117 +286,83 @@ footer nav { font-size: 0.92rem; }
 .home-list li { break-inside:avoid; margin:0 0 0.35rem; }
 @media (max-width:860px) {
   .home-list { columns:1; }
-  .arow { grid-template-columns:1fr; }
-  .arow img { width:100%; height:160px; }
+  .arow img,
+  .alist .arow:nth-child(2n) img,
+  .alist .arow:nth-child(3n) img,
+  .alist .arow:nth-child(4n) img,
+  .alist .arow:nth-child(5n) img {
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 11rem;
+    margin: 0 0 0.65rem;
+  }
 }
 
-/* Címlap: a fotó és a szöveg egymás alatt van, a kártyák egyszerű rácsban. Nincs abszolút réteg és nincs átnyúló cella. */
-.fine {
-  font-family: var(--sans);
-  font-size: 0.82rem;
-  color: var(--muted);
-  margin: 0.55rem 0 0;
+/* Címlap: körbefuttatott tördelés. A fotó a szövegben lebeg, balra vagy jobbra, nem kártyaoszlop. */
+.folio { margin: 1rem 0 0.2rem; border-top: 3px solid var(--gold); }
+.run {
+  display: flow-root;
+  padding: 1.05rem 0 1.15rem;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
 }
-.cover {
+.run a.inset {
   display: block;
-  margin: 1.1rem 0 1.3rem;
+  float: right;
+  width: 38%;
+  max-width: 100%;
+  margin: 0.15rem 0 0.55rem 1.15rem;
 }
-.cover-hero {
-  position: static;
-  display: flex;
-  flex-direction: column;
-  color: inherit;
-  text-decoration: none;
-  border-radius: 18px;
-  overflow: hidden;
-  min-height: 0;
-  background: #1b2421;
-}
-.cover-hero img {
-  display: block;
-  position: static;
+.run a.inset.left { float: left; margin: 0.15rem 1.15rem 0.55rem 0; }
+.run a.inset.s-xl { width: 48%; }
+.run a.inset.s-lg { width: 42%; }
+.run a.inset.s-md { width: 33%; }
+.run a.inset.s-sm { width: 26%; }
+.run a.inset img {
   width: 100%;
-  height: 420px;
-  max-height: 52vh;
+  height: auto;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  object-position: center;
+  border: 1px solid var(--gold);
+  border-radius: 2px;
 }
-.cover-hero-copy {
-  position: static;
-  left: auto;
-  right: auto;
-  bottom: auto;
-  padding: 1.15rem 1.35rem 1.3rem;
-  background: #1b2421;
-  color: #f7f2ea;
-}
-.cover-hero-copy h1 {
-  color: #fff;
-  font-size: clamp(1.7rem, 3vw, 2.6rem);
-  max-width: 22ch;
-  margin: 0.25rem 0 0.45rem;
-}
-.cover-hero-copy .dek {
-  color: #f3ebe0;
-  font-size: 1.08rem;
-  max-width: 40rem;
-  margin: 0 0 0.45rem;
-}
-.cover-hero-copy .kicker { color: #e6c57a; }
-.cover-hero-copy .credit, .cover-hero-copy .credit a,
-.cover-hero-copy .meta { color: #efe6d8; }
-
-.mag {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.9rem;
-  align-items: stretch;
-}
-.story {
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  min-height: 0;
-  position: static;
-}
-.story a.block {
-  color: inherit;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  min-width: 0;
-}
-.story img {
-  display: block;
-  width: 100%;
-  height: 180px;
-  min-height: 0;
-  object-fit: cover;
-  object-position: center;
-  flex: 0 0 auto;
-}
-.story .pad { padding: 0.8rem 0.95rem 0.95rem; }
-.story h2, .story h3 { margin: 0.15rem 0 0.35rem; }
-.story h3 { font-size: 1.2rem; }
-.story .dek { font-size: 0.98rem; margin: 0; line-height: 1.4; }
-.story .credit { margin: 0.45rem 0 0; }
-.story .meta { margin: 0.15rem 0 0.35rem; }
-
+.run a.inset.s-xl img { aspect-ratio: 3 / 2; }
+.run a.inset.s-lg img { aspect-ratio: 4 / 3; }
+.run a.inset.s-md img { aspect-ratio: 1 / 1; }
+.run a.inset.s-sm img { aspect-ratio: 5 / 4; }
+.run h1 { font-size: clamp(1.85rem, 3.2vw, 2.85rem); margin: 0.2rem 0 0.45rem; }
+.run h3 { font-size: clamp(1.28rem, 2vw, 1.6rem); }
+.run h1 a, .run h3 a { color: inherit; text-decoration: none; }
+.run h1 a:hover, .run h3 a:hover { color: var(--teal); }
+.run .dek { font-size: 1.08rem; margin: 0 0 0.45rem; max-width: none; }
+.run .credit { margin-top: 0.35rem; }
 @media (max-width: 860px) {
-  .cover-hero { min-height: 0; }
-  .cover-hero img { height: 220px; max-height: none; }
-  .cover-hero-copy { padding: 1rem 1rem 1.1rem; }
-  .cover-hero-copy h1 { max-width: none; font-size: 1.65rem; }
-  .mag { grid-template-columns: 1fr; }
-  .story img { width: 100%; height: 200px; }
+  .run a.inset,
+  .run a.inset.left,
+  .run a.inset.s-xl,
+  .run a.inset.s-lg,
+  .run a.inset.s-md,
+  .run a.inset.s-sm {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 0.75rem;
+  }
+  .run a.inset img,
+  .run a.inset.s-xl img,
+  .run a.inset.s-lg img,
+  .run a.inset.s-md img,
+  .run a.inset.s-sm img {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    aspect-ratio: auto;
+    object-fit: cover;
+  }
+  .run h1 { font-size: 1.7rem; }
 }
-
 
 /* Keretes különírás: a cikk folyásában, nem a címlap rácsában. */
 .masik-oldal {
