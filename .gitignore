@@ -1,0 +1,5 @@
+# Secret files — security audit 2026-11-05
+.env
+.env.*
+*.env
+!.env.example
